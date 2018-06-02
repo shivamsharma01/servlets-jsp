@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2><%exception.getMessage();%></h2>
+	<h2><%=exception.getMessage()%></h2>
 	<br><br>
 	<jsp:include page="../index.html"></jsp:include>
 </body>
